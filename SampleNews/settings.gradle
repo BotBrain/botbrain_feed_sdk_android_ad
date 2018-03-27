@@ -1,3 +1,2 @@
 include ':appCommon'
-include ':appUCNews'
-include ':libraryTtc'
+include ':libraryTtcAd'

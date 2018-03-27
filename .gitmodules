@@ -1,0 +1,3 @@
+[submodule "SampleNews/libraryTtcAd"]
+	path = SampleNews/libraryTtcAd
+	url = git@repo.botbrain.ai:luguoqiang/libraryTtcAd.git
