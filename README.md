@@ -31,13 +31,8 @@ allprojects {
 }
 ```
 
-**采用标准版或是精简版可咨询相关负责人**
 ```
-// 标准版
 compile 'ai.botbrain.ttcloud:libraryTtc:1.3.0.0'
-
-// 精简版
-compile 'ai.botbrain.ttcloud.lite:libraryTtc:1.3.0.1'
 ```
 
 
