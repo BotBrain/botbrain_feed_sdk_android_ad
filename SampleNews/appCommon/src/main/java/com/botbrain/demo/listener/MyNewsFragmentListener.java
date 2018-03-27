@@ -6,14 +6,12 @@ import android.util.Log;
 
 import com.botbrain.demo.adapter.MyCustomHolder;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
-import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 
 import java.util.List;
 
 import ai.botbrain.ttcloud.api.NewsFragmentListener;
 import ai.botbrain.ttcloud.api.NewsView;
 import ai.botbrain.ttcloud.sdk.model.RecommendEntity;
-import ai.botbrain.ttcloud.sdk.util.TsdContextHolder;
 
 /**
  * Description：
@@ -55,9 +53,9 @@ public class MyNewsFragmentListener implements NewsFragmentListener {
     @Override
     public void getRefreshLayout(RefreshLayout refreshLayout) {
         // 自定义刷新Style
-        ClassicsHeader header = new ClassicsHeader(TsdContextHolder.getContext());
-        header.setEnableLastTime(false);
-        ClassicsHeader.REFRESH_HEADER_REFRESHING = "啦啦啦...";
-        refreshLayout.setRefreshHeader(header);
+        //ClassicsHeader header = new ClassicsHeader(TsdContextHolder.getContext());
+        //header.setEnableLastTime(false);
+        //ClassicsHeader.REFRESH_HEADER_REFRESHING = "啦啦啦...";
+        //refreshLayout.setRefreshHeader(header);
     }
 }
