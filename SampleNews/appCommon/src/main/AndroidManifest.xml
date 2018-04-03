@@ -13,7 +13,7 @@
         <!-- 设置申请的 AppId -->
         <meta-data
             android:name="TTC_APPID"
-            android:value="S4EBUTASGJ" />
+            android:value="XJKYC5VTZZ" />
 
         <activity android:name="com.botbrain.demo.activity.MainActivity">
             <intent-filter>
