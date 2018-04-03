@@ -32,7 +32,7 @@ allprojects {
 ```
 
 ```
-compile 'ai.botbrain.ttcloud:libraryTtc:1.3.0.0'
+compile 'ai.botbrain.ttcloud:libraryTtcAd:1.3.1-alpha3'
 ```
 
 
